@@ -1,0 +1,81 @@
+@font-face {
+	font-family: 'OpenSans';
+	src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+	font-size: 1em;
+}
+
+@font-face {
+	font-family: 'OpenSans-Light';
+	src: url("../fonts/Open_Sans/OpenSans-Light.ttf");
+	font-size: 1em;
+}
+
+header {
+	width: 100%;
+	height: 80px;
+	background-color: #227093;
+	z-index: 2;
+    position: relative;
+}
+
+header .container {
+	position: relative;
+	width: 80%;
+}
+
+header #logotipo {
+	position: absolute;
+	top: 20px;
+	z-index: 3;
+}
+
+#menu {
+	margin: 12px 0;
+}
+
+#menu li {
+	display: inline-block;
+	font-family: "OpenSans";
+}
+
+#menu li a {
+	color: #FFF;
+	font-size: 16px;
+	padding: 10px 25px;
+	font-weight: bold;
+}
+
+footer {
+	margin-top: 110px;
+}
+
+footer .row {
+	width: 100%;
+	margin-left: 0;
+}
+
+footer .row h4 {
+	margin-bottom: 0;
+	color: white;
+	text-align: center;	
+}
+
+footer .row p {
+	margin-bottom: 3px;
+	color: white;
+	
+}
+
+footer .row-cinza-claro {
+	height: 150px;
+	background-color: #485460;
+}
+
+footer .col-xs-6 {
+	padding: 0;
+	padding-right: 5px;
+}
+
+footer  .container{
+	width: 80%;
+}

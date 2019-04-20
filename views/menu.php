@@ -11,8 +11,9 @@
 		<link rel="stylesheet" href="css/style-mobile.css">
 	</head>
 	<body>
-    	<header class="open-menu">
+    	<header > <!-- <header class="open-menu"> -->
     			
+    		<!--  Menu Responsivo
     		<div id="menu-mobile-mask" class="visible-xs"></div>
     
     			<div id="menu-mobile" class="visible-xs">
@@ -22,4 +23,20 @@
     					<li><a href="#">Gerenciar Produtos</a></li>
     					<li><a href="#">Sobre</a></li>
     				</ul>
+    		<div>
+    		-->
+    		
+    		<div class="container">
+				<img id="logotipo" src="img/logo.png" alt="Logotipo">
+			</div>
+			
+    		<div class="container">
+    			<nav id="menu" class="pull-right">
+					<ul>
+						<li><a href="../index.php">Início</a></li>
+    					<li><a href="#">Gerenciar Produtos</a></li>
+    					<li><a href="#">Sobre</a></li>
+    				</ul>
+    			</nav>
+    		</div>
     	</header>

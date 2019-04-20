@@ -2,7 +2,11 @@
 include_once("views/menu.php");
 ?>
 
-<h4>Página Inicial</h4>
+<section>
+    <div class="container">
+    	<center><h4>Página Inicial</h4></center>
+    </div>
+</section>
 
 <?php 
 include_once("views/rodape.php");
