@@ -94,6 +94,11 @@ footer  .container{
 	position: relative;
 }
 
+#destaque-produtos {
+	margin: 30px auto;
+}
+
+
 #destaque-produtos .col-image {
 	text-align: center;
 }
@@ -140,4 +145,25 @@ footer  .container{
 
 #destaque-produtos .col-descricao .text-parcelas {
 	margin-top: 20px;
+}
+
+#btn-destaque-prev {
+    position: absolute;
+    top: 140px;
+    left: 0;
+    background: none;
+    border: none;
+    font-size: 64px;
+	color:#2A2A2A;
+	outline:0;
+}
+#btn-destaque-next {
+    position: absolute;
+    top: 140px;
+    right: 0;
+    background: none;
+    border: none;
+    font-size: 64px;
+	color:#2A2A2A;
+	outline:0;
 }
