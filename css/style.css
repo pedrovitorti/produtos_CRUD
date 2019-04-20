@@ -25,7 +25,7 @@ header .container {
 
 header #logotipo {
 	position: absolute;
-	top: 20px;
+	top: 2px;
 	z-index: 3;
 }
 

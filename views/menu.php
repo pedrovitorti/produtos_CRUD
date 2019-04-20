@@ -25,11 +25,11 @@
     				</ul>
     		<div>
     		-->
-    		<!-- 
+    		
     		<div class="container">
-				<img id="logotipo" src="img/logo.png" alt="Logotipo">
+				<img id="logotipo" src="img/logo.png" alt="Logotipo" width="200" height="75">
 			</div>
-		    -->
+		   
     		<div class="container">
     			<nav id="menu" class="pull-right">
 					<ul>
