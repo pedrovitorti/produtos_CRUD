@@ -1,13 +1,9 @@
 <?php 
-
-
+include_once("views/menu.php");
 ?>
 
-<html>
-	<head>
-		<title>Página Inicial</title>
-	</head>
-	<body>
-		Página Inicial
-	</body>
-</html>
+<h4>Página Inicial</h4>
+
+<?php 
+include_once("views/rodape.php");
+?>
