@@ -81,6 +81,10 @@ footer  .container{
 	width: 80%;
 }
 
+#container_gerenciar{
+	margin-top: 30px;
+	width: 65%;
+}
 .text-arial-cinza{
 	font-family: arial;
 	font-size: 12px;

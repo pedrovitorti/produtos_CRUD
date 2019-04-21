@@ -33,8 +33,8 @@
     		<div class="container">
     			<nav id="menu" class="pull-right">
 					<ul>
-						<li><a href="../index.php">Início</a></li>
-    					<li><a href="#">Gerenciar Produtos</a></li>
+						<li><a href="index.php">Início</a></li>
+    					<li><a href="gerenciar_produtos.php">Gerenciar Produtos</a></li>
     					<li><a href="#">Sobre</a></li>
     				</ul>
     			</nav>
