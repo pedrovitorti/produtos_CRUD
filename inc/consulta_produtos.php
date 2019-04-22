@@ -1,4 +1,5 @@
 <?php
+/* retornar todos os dados do banco */
 
 error_reporting(E_ALL);
  

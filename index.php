@@ -31,9 +31,7 @@ include_once("inc/consulta_produtos.php")
 			<?php }
 			
 			?>		
-			
-			
-		
+
 		</div>
 		<button type="button" id="btn-destaque-prev"><i class="fa fa-angle-left"></i></button>
 		<button type="button" id="btn-destaque-next"><i class="fa fa-angle-right"></i></button>
@@ -43,6 +41,7 @@ include_once("inc/consulta_produtos.php")
 include_once("views/rodape.php");
 ?>
 
+<!-- funcionamento do carrossel -->
 <script>
 $(function(){
 

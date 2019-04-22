@@ -1,4 +1,6 @@
 <?php
+/* edita um produto pelo id */
+
 
 error_reporting(E_ALL);
 

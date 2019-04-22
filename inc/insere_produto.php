@@ -1,4 +1,5 @@
 <?php
+/* insere um novo produto no banco */
 
 error_reporting(E_ALL);
 
