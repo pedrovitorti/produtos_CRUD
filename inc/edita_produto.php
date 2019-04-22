@@ -7,8 +7,8 @@ ini_set("display_errors", 1);
 
 require_once("conexao.php");
 
+$id= $_POST['id'];
 $nome = $_POST['nome'];
-$nome = utf8_encode($nome);
 $descricao = $_POST['descricao'];
 $preco = $_POST['preco'];
 
@@ -29,7 +29,7 @@ if (isset($_FILES['file'])) {
 }
 
 $sql = new Sql();
-$result = $sql->query("INSERT INTO `tb_produtos` VALUES(null,'$nome','$preco','$descricao','$name_img');");
+$result = $sql->query("UPDATE tb_produtos SET nome = '$nome',preco ='$preco',descricao ='$descricao',imagem ='$name_img' WHERE id = '$id';");
 header("Location:../gerenciar_produtos.php");
 
 ?>

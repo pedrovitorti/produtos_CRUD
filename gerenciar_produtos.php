@@ -23,8 +23,8 @@ include_once("inc/consulta_produtos.php")
         			
         					<td>
         					
-        					<input name='acao' class="btn btn-primary fonte_menus" type="submit" value="Excluir"/> 
-        					<input name='acao' class="btn btn-primary fonte_menus" type="submit" value="Editar"/>
+        					<input name='acao' class="btn btn-primary fonte_menus" type="submit" value="Excluir"/>
+        					<a href='editar_produto.php?id=<?php echo $row['id']; ?>'><input name='acao' class="btn btn-primary fonte_menus" type="button" value="Editar"/></a>
         					</td>
         				</form>
         				</tr>	

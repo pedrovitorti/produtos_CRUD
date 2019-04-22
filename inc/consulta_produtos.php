@@ -12,5 +12,4 @@ $sql = new Sql();
 $result = $sql->query("SELECT * FROM tb_produtos;");
 
 
-
 ?>

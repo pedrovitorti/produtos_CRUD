@@ -15,10 +15,7 @@ if($acao == "Excluir"){
     $result = $sql->query("DELETE FROM tb_produtos WHERE id='$id';");
     header("Location:../gerenciar_produtos.php");
     
-} else {
-    header("Location:../config_bd/../paginas/editar_usuario.php");
-    
-}
+} 
 
 
 
