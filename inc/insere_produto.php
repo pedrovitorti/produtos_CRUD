@@ -8,7 +8,6 @@ ini_set("display_errors", 1);
 require_once("conexao.php");
 
 $nome = $_POST['nome'];
-$nome = utf8_encode($nome);
 $descricao = $_POST['descricao'];
 $preco = $_POST['preco'];
 

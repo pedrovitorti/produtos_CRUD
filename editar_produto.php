@@ -11,7 +11,7 @@ $result = $sql->query("SELECT * FROM tb_produtos WHERE id='$id';");
 <section>
 	 <div class="container" id="container_gerenciar">
 	 	<?php while($row = mysqli_fetch_array($result)){ ?>
-		<form enctype="multipart/form-data" method="post" action="inc/edita_produto.php" >
+		<form enctype="multipart/form-data" method="post" action="inc/edita_produto.php">
 			<input type='hidden' name='id' value='<?php echo $id?>'>
 			<b>Nome:</b> <br><input class="form-control" name="nome" type="text" value='<?php echo utf8_encode($row['nome']);  ?>'  maxlength="100" required><br>
 			<b>Descrição:</b> <br>  <textarea type="text" id="form7" name="descricao" class="md-textarea form-control" rows="3" required><?php echo utf8_encode($row['descricao']); ?></textarea><br>
